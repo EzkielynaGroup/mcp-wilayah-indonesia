@@ -1,0 +1,30 @@
+Data file: data/wilayah.json.gz
+
+Converted (no content changes except trimming stray spaces in 5 names) from db/wilayah.sql of
+https://github.com/cahyadsn/wilayah, upstream commit d68e8d5516f969d1905d0b2940f20034becb0db7 (2026-02-13),
+which follows Keputusan Menteri Dalam Negeri Nomor 300.2.2-2430 Tahun 2025 (amending Nomor 300.2.2-2138 Tahun 2025).
+The upstream file is distributed under the MIT License reproduced below.
+
+---
+
+MIT License
+
+Copyright (c) 2017-2025 Cahya DSN
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

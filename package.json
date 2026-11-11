@@ -1,0 +1,51 @@
+{
+  "name": "mcp-wilayah-indonesia",
+  "version": "1.0.0",
+  "description": "MCP server: Indonesian regions (provinsi to desa/kelurahan) with Kemendagri codes, offline and typo tolerant",
+  "mcpName": "io.github.EzkielynaGroup/mcp-wilayah-indonesia",
+  "type": "module",
+  "bin": {
+    "mcp-wilayah-indonesia": "mcp-wilayah-indonesia.mjs"
+  },
+  "files": [
+    "mcp-wilayah-indonesia.mjs",
+    "data/wilayah.json.gz",
+    "data/LICENSE-DATA.txt",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "indonesia",
+    "wilayah",
+    "kode-wilayah",
+    "kemendagri",
+    "provinsi",
+    "kabupaten",
+    "kecamatan",
+    "desa",
+    "kelurahan",
+    "bmkg",
+    "claude-desktop",
+    "claude-code",
+    "cursor"
+  ],
+  "author": "Ezekiel Lieberhart (Ezkielyna)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzkielynaGroup/mcp-wilayah-indonesia.git"
+  },
+  "homepage": "https://github.com/EzkielynaGroup/mcp-wilayah-indonesia#readme",
+  "bugs": {
+    "url": "https://github.com/EzkielynaGroup/mcp-wilayah-indonesia/issues"
+  }
+}
