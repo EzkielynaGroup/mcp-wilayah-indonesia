@@ -106,7 +106,7 @@ Add `--scope user` to make it available in every project. Check with `claude mcp
 - Offline and read-only: no network requests, no file writes. Logs go to stderr; stdout carries only MCP messages.
 - Input limits: names up to 200 characters, up to 50 search results and 200 children per page.
 - Errors come back as short tool errors (Indonesian + English) without stack traces or local paths.
-- The data is a snapshot. Codes and names change when regions split or are renamed; check the official decree for legal or administrative use.
+- The data is a snapshot. Codes and names change when regions split or are renamed; check the decree itself for legal or administrative use.
 
 ## Data source and license
 
@@ -145,8 +145,8 @@ No. Kemendagri region codes are different from postal codes, and from BPS (stati
 **Does it need internet or an API key?**
 No. The data is bundled; after `npx` has downloaded the package once, everything runs locally and costs nothing.
 
-**Is this data official?**
-It is an MIT-licensed community compilation of the official decree, not a government service. For legal or administrative documents, check the decree published by Kemendagri.
+**Is this data published by the government?**
+The codes come from a Kemendagri decree, but this package uses an MIT-licensed community compilation of it, not a government service. For legal or administrative documents, check the decree published by Kemendagri.
 
 ## Development
 
@@ -203,7 +203,7 @@ Claude Code: `claude mcp add wilayah-indonesia -- npx -y mcp-wilayah-indonesia`.
 
 ### Sumber data dan lisensi
 
-Data diambil dari repositori [`cahyadsn/wilayah`](https://github.com/cahyadsn/wilayah) (lisensi **MIT**, Copyright (c) 2017-2025 Cahya DSN), file `db/wilayah.sql` commit `d68e8d5` (perubahan data terakhir 13 Feb 2026, diunduh 11 Nov 2026), yang menurut README-nya mengikuti **Kepmendagri No. 300.2.2-2430 Tahun 2025**. Jumlahnya cocok dengan tabel di README sumber: 38 provinsi, 416 kabupaten, 98 kota, 7.285 kecamatan, 8.496 kelurahan, 75.266 desa. Kami tidak mencocokkan setiap baris dengan PDF Kepmendagri. Untuk keperluan hukum atau administrasi, rujuk keputusan resmi Kemendagri.
+Data diambil dari repositori [`cahyadsn/wilayah`](https://github.com/cahyadsn/wilayah) (lisensi **MIT**, Copyright (c) 2017-2025 Cahya DSN), file `db/wilayah.sql` commit `d68e8d5` (perubahan data terakhir 13 Feb 2026, diunduh 11 Nov 2026), yang menurut README-nya mengikuti **Kepmendagri No. 300.2.2-2430 Tahun 2025**. Jumlahnya cocok dengan tabel di README sumber: 38 provinsi, 416 kabupaten, 98 kota, 7.285 kecamatan, 8.496 kelurahan, 75.266 desa. Kami tidak mencocokkan setiap baris dengan PDF Kepmendagri. Untuk keperluan hukum atau administrasi, rujuk dokumen Kepmendagri yang diterbitkan Kemendagri.
 
 ### Tanya jawab
 
