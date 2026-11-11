@@ -1,5 +1,9 @@
 # mcp-wilayah-indonesia
 
+<!-- ezk:badges -->
+[![npm](https://img.shields.io/npm/v/mcp-wilayah-indonesia?color=c2410c)](https://www.npmjs.com/package/mcp-wilayah-indonesia) [![CI](https://github.com/EzkielynaGroup/mcp-wilayah-indonesia/actions/workflows/test.yml/badge.svg)](https://github.com/EzkielynaGroup/mcp-wilayah-indonesia/actions/workflows/test.yml) [![MCP Registry](https://img.shields.io/badge/MCP_Registry-io.github.EzkielynaGroup%2Fmcp--wilayah--indonesia-1f6feb)](https://registry.modelcontextprotocol.io/v0/servers?search=io.github.EzkielynaGroup/mcp-wilayah-indonesia) [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+<!-- /ezk:badges -->
+
 An [MCP](https://modelcontextprotocol.io) server that lets your AI assistant **look up Indonesian administrative regions and their Kemendagri codes**: provinsi, kabupaten/kota, kecamatan (distrik) and desa/kelurahan. It works **offline** from a bundled copy of the current code list (Kepmendagri No. 300.2.2-2430 Tahun 2025, 91,599 regions) and tolerates typos.
 
 Example: *"What is the Kemendagri code of Kelurahan Kemayoran in Jakarta Pusat, and which BMKG adm4 code do I use for its weather forecast?"*
@@ -212,3 +216,17 @@ Data diambil dari repositori [`cahyadsn/wilayah`](https://github.com/cahyadsn/wi
 - **Perlu internet atau API key?** Tidak. Data ikut dalam paket dan semuanya gratis.
 
 Kode: MIT. Data: MIT (Cahya DSN). Dibuat oleh [Ezkielyna](https://ezkielyna.store/?utm_source=github&utm_medium=readme&utm_campaign=mcp-wilayah-indonesia), gateway API AI independen untuk developer Indonesia (bayar pakai QRIS).
+
+<!-- ezk:toolkit -->
+---
+
+### Part of the Ezkielyna developer toolkit
+
+Open-source tools from [Ezkielyna](https://ezkielyna.store/?utm_source=github&utm_medium=readme&utm_campaign=mcp-wilayah-indonesia), an independent OpenAI- and Anthropic-compatible AI API gateway (pay with QRIS, USDT or Binance Pay; no credit card).
+
+| No API key needed | With an Ezkielyna key |
+|---|---|
+| [mcp-bmkg](https://github.com/EzkielynaGroup/mcp-bmkg) · [mcp-wilayah-indonesia](https://github.com/EzkielynaGroup/mcp-wilayah-indonesia) · [mcp-hari-libur-indonesia](https://github.com/EzkielynaGroup/mcp-hari-libur-indonesia) · [mcp-rupiah](https://github.com/EzkielynaGroup/mcp-rupiah) · [mcp-qris](https://github.com/EzkielynaGroup/mcp-qris) · [ai-model-status-mcp](https://github.com/EzkielynaGroup/ai-model-status-mcp) | [ezkielyna-mcp](https://github.com/EzkielynaGroup/ezkielyna-mcp) · [ezkielyna-image-mcp](https://github.com/EzkielynaGroup/ezkielyna-image-mcp) · [ezkielyna-audio-mcp](https://github.com/EzkielynaGroup/ezkielyna-audio-mcp) · [n8n-nodes-ezkielyna](https://github.com/EzkielynaGroup/n8n-nodes-ezkielyna) |
+
+More: [all repositories](https://github.com/EzkielynaGroup) · [awesome-mcp-indonesia](https://github.com/EzkielynaGroup/awesome-mcp-indonesia) · [awesome-ai-indonesia](https://github.com/EzkielynaGroup/awesome-ai-indonesia)
+<!-- /ezk:toolkit -->
